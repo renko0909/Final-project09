@@ -1,0 +1,273 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #FFEDD3; }
+
+.navbar {
+  position: absolute;
+  width: 100%; }
+
+.hero {
+  background: url("/images/main.jpg") no-repeat center center/cover;
+  height: 100vh; }
+
+.name {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 50px;
+  top: 15px; }
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 5%;
+  margin-left: 58%; }
+  .nav-list li {
+    list-style: none; }
+  .nav-list .nav-link a {
+    margin: .2rem;
+    padding: 1rem 1rem;
+    font-size: 19px;
+    font-family: 'Grechen Fuemen', cursive;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(225, 225, 225, 0.2); }
+  .nav-list .nav-link a:hover {
+    background: rgba(225, 225, 225, 0.6); }
+
+.main-pic {
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.2); }
+
+.main-words {
+  color: white;
+  font-family: 'Antic Slab', serif;
+  margin-top: 260px;
+  padding-left: 36%;
+  line-height: 3rem;
+  font-size: 40px;
+  background: rgba(225, 225, 225, 0.6); }
+
+.student1 {
+  background: url("/images/student1.jpeg") no-repeat;
+  height: 100vh;
+  border-radius: 50%;
+  width: 190px;
+  height: 180px;
+  background-position: center top;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  margin-top: -40px; }
+
+.student2 {
+  background: url("/images/student2.jpeg") no-repeat;
+  height: 100vh;
+  border-radius: 50%;
+  width: 190px;
+  height: 180px;
+  background-position: center top;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  margin-top: -40px; }
+
+.student3 {
+  background: url("/images/student3.jpeg") no-repeat;
+  height: 100vh;
+  border-radius: 50%;
+  width: 190px;
+  height: 180px;
+  background-position: center top;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  margin-top: -40px; }
+
+h3 {
+  color: #316B83;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 450px;
+  margin-top: 10%;
+  font-size: 20px; }
+
+.ptag {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  float: left;
+  margin-left: 450px;
+  font-size: 16px; }
+
+.middle-line {
+  position: relative;
+  background-color: #B8DFD8;
+  left: 5%;
+  width: 90%;
+  height: 500px;
+  margin: 20px 0;
+  border-radius: 40% / 20%;
+  text-indent: .1em;
+  margin-bottom: 8%; }
+  .middle-line .display {
+    width: 90%;
+    display: flex;
+    text-align: center; }
+  .middle-line h1 {
+    color: #22577A; }
+  .middle-line h2 {
+    color: #22577A;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 2%; }
+  .middle-line .fas {
+    font-size: 80px;
+    color: #22577A;
+    margin-bottom: 5%;
+    margin-top: 10%; }
+  .middle-line p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 90px;
+    width: 70%; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin-left: 42%;
+  margin-top: 5%; }
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100; }
+
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: white;
+  background: #f56500; }
+
+video {
+  max-width: 100%;
+  /* はみ出ないように */ }
+
+.teacher-video {
+  background-color: #FFB319;
+  position: relative;
+  left: 5%;
+  width: 90%;
+  height: 500px;
+  margin: 30px 0;
+  border-radius: 40% / 20%;
+  text-indent: .1em; }
+  .teacher-video p {
+    color: #3DB2FF;
+    font-size: 25px;
+    margin-left: 40%; }
+  .teacher-video .video {
+    margin-left: 25%;
+    margin-top: 5%; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  width: 70%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10%; }
+  .about h2 {
+    font-size: 35px;
+    margin-bottom: 5%; }
+
+.footer {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E0C097; }
+
+.footer-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px; }
+
+.main-name {
+  font-size: 30px; }
+
+.sub-name {
+  font-size: 20px; }
+
+.footer .social-media {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 70px; }
+
+.footer .social-media-item {
+  list-style: none; }
+
+ul {
+  list-style-type: disc; }
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent; }
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none; }
+
+.footer .social-media-link {
+  text-decoration: none;
+  font-size: 60px;
+  color: #4A403A;
+  transition: color .7s; }
+
+.footer-copyright-paragraph {
+  font-family: “Josefin Sans”, sans-serif;
+  font-size: 18px;
+  color: #4A403A;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize; }
